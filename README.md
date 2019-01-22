@@ -1,6 +1,11 @@
 # ## UnrealEditorPythonScripts ##
 Some of my personal scripts i made to use for my own projects, but free of charge to be used for any project and any purpose as long as it is not violating the Unreal Engine EULA.
 
+In order to be able to sue those helper scripts, you must be sure this plugins are enabled first:
+
+1. Scripting/Python Editor Script Plugin
+2. Scripting/Editor Scripting Utilities
+
 You can watch scripts in action in the play-list below (click the image):
 
 [![](http://www.mamoniem.com/wp-content/uploads/2019/01/2019-01-21-02_05_42-pythonScriptsYoutubeThumbnails.psd-@-66.7-RGB_8-_.png)](https://www.youtube.com/playlist?list=PLTfMG1EpxB2ewNOlE1vFNqIGqPzgkqVk6)
