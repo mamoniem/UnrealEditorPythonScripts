@@ -11,20 +11,18 @@
 
 import unreal
 
-@unreal.uclass()
-class GetEditorUtility(unreal.GlobalEditorUtilityBase):
-    pass
-
+workingPath = "/Game/"
 
 @unreal.uclass()
-class GetAnimationLibrary(unreal.AnimationLibrary):
+class GetEditorAssetLibrary(unreal.EditorAssetLibrary):
     pass
 
-editorUtility = GetEditorUtility()
-animLib = GetAnimationLibrary()
+editorAssetLib = GetEditorAssetLibrary();
 
-selectedAssets = editorUtility.get_selected_assets()
+allAssets = editorAssetLib.list_assets(workingPath, True, False)
 
-for selectedAsset in selectedAssets:
-    selectedAsset.modify(True)
-    animLib.remove_all_animation_notify_tracks(selectedAsset)
+if (len(allAssets) > 0):
+    for asset in allAssets:
+        deps = editorAssetLib.find_package_referencers_for_asset(asset, False)
+        if (len(deps) == 0):
+            print ">>>%s" % asset

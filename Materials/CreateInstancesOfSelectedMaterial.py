@@ -1,6 +1,13 @@
-#By Muhammad A.Moniem (@_mamoniem) www.mamoniem.com
-#feel free to edit and/or use for any purpose :)
-#It requires the Unreal python scripting plugin to be enabled first!
+#										_
+#									   (_)
+#  _ __ ___   __ _ _ __ ___   ___  _ __  _  ___ _ __ ___
+# | '_ ` _ \ / _` | '_ ` _ \ / _ \| '_ \| |/ _ \ '_ ` _ \
+# | | | | | | (_| | | | | | | (_) | | | | |  __/ | | | | |
+# |_| |_| |_|\__,_|_| |_| |_|\___/|_| |_|_|\___|_| |_| |_|
+#					www.mamoniem.com
+#					  www.ue4u.xyz
+#Copyright 2019 Muhammad A.Moniem (@_mamoniem). All Rights Reserved.
+#
 
 import unreal
 
