@@ -18,7 +18,8 @@ Don't forget to follow this repo, [YouTube](http://www.youtube.com/channel/UCBBc
 
 ## Assets ##
 
-- **[ReportUnusedAssets.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Assets/ReportUnusedAssets.py)** Running this script will look through all the project folders, and add to the log the assets that were found not in a use, or in another work, the assets that have no dependency with any other project files. 
+- **[ReportUnusedAssets.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Assets/ReportUnusedAssets.py)** Running this script will look through all the project folders, and add to the log the assets that were found not in a use, or in another word, the assets that have no dependency with any other project files.
+- **[DeleteUnusedAssets.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Assets/DeleteUnusedAssets.py)** Running this script will look through all the project folders, and delete the assets that were found not in a use, or in another word, the assets that have no dependency with any other project files. Note that, running this script won't show a confirmation message or accepting dialogue box, it will force delete the assets right a way, so make sure to evaluate the change before submitting to your repo.
 
 ## Materials ##
 - **[CreateInstancesOfSelectedMaterial.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Materials/CreateInstancesOfSelectedMaterial.py)** Run on a selected single or multiple Material file(s) in order to generate material instances of it/them. The number of the final generated instances count can be set within the script before running, by changing the value of the variable *totalRequiredInstances*
