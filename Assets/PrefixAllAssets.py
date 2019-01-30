@@ -46,7 +46,7 @@ def GetProperPrefix(className):
         _prefix = prefixAnimationBlueprint
     elif className == "AnimationSequence":
         _prefix = prefixAnimationSequence
-	elif className == "Animation":
+    elif className == "Animation":
         _prefix = prefixAnimation
     elif className == "BlendSpace1D":
         _prefix = prefixBlendSpace
@@ -101,6 +101,7 @@ with unreal.ScopedSlowTask(allAssetsCount, selectedAssetPath) as slowTask:
         _assetPathOnly = _assetPathName.replace((_assetName + "." + _assetName), "")
         _assetClassName = _assetData.get_asset().get_class().get_name()
         _assetPrefix = GetProperPrefix(_assetClassName)
+
 
         if _assetPrefix in _assetName:
             continue
