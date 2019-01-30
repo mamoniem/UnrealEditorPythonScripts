@@ -42,9 +42,9 @@ class GetEditorAssetLibrary(unreal.EditorAssetLibrary):
 
 def GetProperPrefix(className):
     _prefix = ""
-    if className == "AnimationBlueprint":
+    if className == "AnimBlueprint":
         _prefix = prefixAnimationBlueprint
-    elif className == "AnimationSequence":
+    elif className == "AnimSequence":
         _prefix = prefixAnimationSequence
     elif className == "Animation":
         _prefix = prefixAnimation
