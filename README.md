@@ -1,4 +1,17 @@
 #UnrealEditorPythonScripts#
+---------------------------------------------------
+**NOTE:**
+
+May, 2020
+
+Now my step by step guide into the new editor Python API of the Unreal Engine is live. You can watch the promo here: [https://www.youtube.com/watch?v=tmSNFBisCOM](https://www.youtube.com/watch?v=tmSNFBisCOM)
+
+Or check it right away here: [https://www.udemy.com/course/ue4python/](https://www.udemy.com/course/ue4python/)
+
+
+
+---------------------------------------------------
+
 Some of my personal scripts i made to use for my own projects, but free of charge to be used for any project and any purpose as long as it is not violating the Unreal Engine EULA.
 
 In order to be able to sue those helper scripts, you must be sure this plugins are enabled first:
