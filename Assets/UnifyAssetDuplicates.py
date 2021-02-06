@@ -43,7 +43,7 @@ with unreal.ScopedSlowTask(allAssetsCount, selectedAssetPath) as slowTask:
 
         if (_assetName == selectedAssetName):
             if (asset != selectedAssetPath):
-                print ">>> There is a duplicate found for the asset %s located at %s" % (_assetName, asset)
+                print (">>> There is a duplicate found for the asset %s located at %s" % (_assetName, asset))
                 _assetLoaded = editorAssetLib.load_asset(asset)
                 assetsMatching.append(_assetData.get_asset())
         if slowTask.should_cancel():
@@ -53,10 +53,10 @@ with unreal.ScopedSlowTask(allAssetsCount, selectedAssetPath) as slowTask:
 
 if (len(assetsMatching) != 0):
     editorAssetLib.consolidate_assets(selectedAsset, assetsMatching)
-    print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-    print ">>> The unifing process completed for %d assets" % len(assetsMatching)
-    print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+    print (">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    print (">>> The unifing process completed for %d assets" % len(assetsMatching))
+    print (">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 else:
-    print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-    print ">>> There were no duplicates found for the selected asset"
-    print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+    print (">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    print (">>> There were no duplicates found for the selected asset")
+    print (">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")

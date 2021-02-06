@@ -30,7 +30,7 @@ if ( allAssetsCount > 0):
             processingAssetPath = asset
             deps = editorAssetLib.find_package_referencers_for_asset(asset, False)
             if (len(deps) <= 0):
-                print ">>> Deleting >>> %s" % asset
+                print (">>> Deleting >>> %s" % asset)
                 editorAssetLib.delete_asset(asset)
             if slowTask.should_cancel():
                 break

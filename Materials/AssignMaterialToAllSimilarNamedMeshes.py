@@ -47,7 +47,7 @@ with unreal.ScopedSlowTask(allAssetsCount, selectedAssetPath) as slowTask:
 
         if (_assetName == selectedAssetName):
             if (asset != selectedAssetPath):
-                print ">>> There is a duplicate found for the asset %s located at %s" % (_assetName, asset)
+                print (">>> There is a duplicate found for the asset %s located at %s" % (_assetName, asset))
                 _assetLoaded = editorAssetLib.load_asset(asset)
                 if(_assetClass == selectedAssetClass):
                     assetsMatching.append(_assetData.get_asset())

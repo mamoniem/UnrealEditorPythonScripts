@@ -25,4 +25,4 @@ if (len(allAssets) > 0):
     for asset in allAssets:
         deps = editorAssetLib.find_package_referencers_for_asset(asset, False)
         if (len(deps) == 0):
-            print ">>>%s" % asset
+            print (">>>%s" % asset)

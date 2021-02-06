@@ -111,7 +111,7 @@ with unreal.ScopedSlowTask(allAssetsCount, selectedAssetPath) as slowTask:
             _targetPathName = _assetPathOnly + ("%s%s%s%s%s%s%s" % (_assetPrefix, "_", _assetName, ".", _assetPrefix, "_", _assetName))
 
             editorAssetLib.rename_asset(_assetPathName, _targetPathName)
-            print ">>> Renaming [%s] to [%s]" % (_assetPathName, _targetPathName)
+            print (">>> Renaming [%s] to [%s]" % (_assetPathName, _targetPathName))
 
         if slowTask.should_cancel():
             break
