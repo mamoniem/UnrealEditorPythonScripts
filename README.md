@@ -49,3 +49,4 @@ Don't forget to follow this repo, [YouTube](http://www.youtube.com/channel/UCBBc
 ## Sequencer ##
 - **[CreateAndEditCineCameraActor.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Sequencer/CreateAndEditCineCameraActor.py)** An example on how you can create cinematic camera in the current world/map, and start modifying some of it's focus settings (Keep in mind you **MUST enable the Scripting python sequencer plugin** for that, **python plugin only is not enough**).
 *This nice example was built while supporting a user of the python course, so the credits goes to them*.
+- **[CreateCineCameraForEverySkeletalMesh.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Sequencer/CreateCineCameraForEverySkeletalMesh.py)** An example on auto-create cameras for every skeletal mesh actor in the world, and align the camera to the skeletal characters, set the cameras to always look at those characters actors.
