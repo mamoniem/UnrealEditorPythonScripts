@@ -28,7 +28,8 @@ Don't forget to follow this repo, [YouTube](http://www.youtube.com/channel/UCBBc
 
 ## Aimation ##
 
-- **[CleanNotifiesFromAnimations.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Animation/CleanNotifiesFromAnimations.py)** Run on a selected single or multiple animation file(s) in order to clean up the selected file(s) from any animation notifies. 
+- **[CleanNotifiesFromAnimations.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Animation/CleanNotifiesFromAnimations.py)** Run on a selected single or multiple animation file(s) in order to clean up the selected file(s) from any animation notifies.
+- **[SetAllAnimNotifyProperty.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Animation/SetAllAnimNotifyProperty.py)** Run on a selected single or multiple animation file(s) in order set some values for all the animation notifies exists in the selected animations (notify name, notify color, notify trigger settings,...etc.). NOTE that the later part of the scrip (color fetch & change) won't work with the custom notifies (the ones that call a function/Event), as those notifies are meant to have fixed color by design.
 
 ## Assets ##
 
