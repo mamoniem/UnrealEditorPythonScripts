@@ -30,7 +30,7 @@ if (allAssetsCount > 0):
         slowTask.make_dialog(True)
         for asset in allAssets:
             assetData = editorAssetLib.find_asset_data(asset)
-            selectedAssetPath = assetData.get_asset().get_path_name()
+            selectedAssetPath = assetData.asset_name
             if(assetData.asset_class == "Material"):
                 if(assetData.get_asset().get_editor_property("two_sided") == True):
                     unreal.log_warning("Master material [%s] is TWO-SIDED" % assetData.asset_name)
