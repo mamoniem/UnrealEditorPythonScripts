@@ -43,7 +43,7 @@ Don't forget to follow this repo, [YouTube](http://www.youtube.com/channel/UCBBc
 
 ## Components ##
 
-- **[AccessAndModifyComponents.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Components/AccessAndModifyComponents.py)** Running this script will go through all the selected actors, and modify a given attribute of the given component type to a given value. In the example we search for StaticMeshComponents (as type) and reset their relative location (as attribute) to 0,0,0 (as value).
+- **[AccessAndModifyComponentsOld.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Components/AccessAndModifyComponentsOld.py)** Running this script will go through all the selected actors, and modify a given attribute of the given component type to a given value. In the example we search for StaticMeshComponents (as type) and reset their relative location (as attribute) to 0,0,0 (as value).
 Worth mention that, this version of the script, works great with none-inherited components (the ones with gray icons, not blue icons). For better version, that uses different logic, check the script below.
 - **[AccessAndModifyComponentsNew.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Components/AccessAndModifyComponentsNew.py)** Running this script will go through all the selected actors, and modify a given attribute of the given component type to a given value. In the example we search for StaticMeshComponents (as type) and reset their relative location (as attribute) to 0,0,0 (as value).
 
