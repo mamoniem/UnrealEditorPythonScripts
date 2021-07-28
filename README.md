@@ -41,6 +41,12 @@ Don't forget to follow this repo, [YouTube](http://www.youtube.com/channel/UCBBc
 - **[OrganizeAssetsPerType.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Assets/OrganizeAssetsPerType.py)** When you start new project, you don't have to worry about organizing the assets per family in folders. Just go ahead and focus on building the prototype or content, and then execute that script at any moment will make sure to move all the assets from the same type (*UClass*) to their own folder.
 - **[PrefixAllAssets.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Assets/PrefixAllAssets.py)** Running this script will apply prefix to majority of the files. While those prefixes I used are more subjective to my own pipeline, but you can modify them simply by opening the script and set the prefix of your choice per file type at the top of the script. You can also add more cases if not exist!
 
+## Components ##
+
+- **[AccessAndModifyComponents.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Components/AccessAndModifyComponents.py)** Running this script will go through all the selected actors, and modify a given attribute of the given component type to a given value. In the example we search for StaticMeshComponents (as type) and reset their relative location (as attribute) to 0,0,0 (as value).
+Worth mention that, this version of the script, works great with none-inherited components (the ones with gray icons, not blue icons). For better version, that uses different logic, check the script below.
+- **[AccessAndModifyComponentsNew.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Components/AccessAndModifyComponentsNew.py)** Running this script will go through all the selected actors, and modify a given attribute of the given component type to a given value. In the example we search for StaticMeshComponents (as type) and reset their relative location (as attribute) to 0,0,0 (as value).
+
 ## Level ##
 - **[CreateSingleLevelStreaming.py](https://github.com/mamoniem/UnrealEditorPythonScripts/blob/master/Level/CreateSingleLevelStreaming.py)** An example on how to create a level streaming via python script. You can create as many streaming levels and control them right away with a for loop, however in this example we create only singe level of "*LevelStreamingDynamic*" at a desired location.
 
