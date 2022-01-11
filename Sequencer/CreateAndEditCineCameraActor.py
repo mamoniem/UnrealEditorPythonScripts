@@ -6,7 +6,7 @@
 # |_| |_| |_|\__,_|_| |_| |_|\___/|_| |_|_|\___|_| |_| |_|
 #					www.mamoniem.com
 #					  www.ue4u.xyz
-#Copyright 2021 Muhammad A.Moniem (@_mamoniem). All Rights Reserved.
+#Copyright 2022 Muhammad A.Moniem (@_mamoniem). All Rights Reserved.
 #
 # This file was built while supporting user of the python course
 
